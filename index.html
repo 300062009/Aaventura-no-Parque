@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura no Parque</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você é Lúcia, uma jovem aventureira no Parque Nacional da Serra Verde. Você carrega uma mochila com equipamentos básicos e um mapa desgastado.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir a trilha principal</button>
+            <button class="btn-proximo" data-proximo="2">Explorar uma trilha secundária desconhecida</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Trilha Principal:Você encontra um rio cristalino com uma inscrição antiga: "Onde a luz do sol encontrar a sombra, a verdade se revelará."
+            </p>
+            <button class="btn-proximo" data-proximo="6">Seguir o rio até sua fonte</button>
+            <button class="btn-proximo" data-proximo="3">Procurar uma caverna escondida</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> Trilha Secundária: Você descobre uma clareira com uma estrutura antiga. Encontra um mapa escondido.</p>
+            <button class="btn-proximo" data-proximo="6">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="1">Voltar à trilha principal</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você procura por uma caverna escondida. Após minutos de busca, você encontra a entrada. Dentro, você encontra um cristal que, ao ser tocado, ilumina uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="4">Seguir a passagem secreta</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você segue a passagem secreta e descobre um tesouro escondido: um baú cheio de joias e um diário antigo.</p>
+            <button class="btn-proximo" data-proximo="7">Fim</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p> explorar a trilha secundária, você pode encontrar um grupo de cientistas estudando a flora local..</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> o rio ou o mapa: encontra um tesouro escondido.</p>
+           
+        </div>
+        <div class="passo" id="passo-7">
+            <p> Você descobriu o tesouro e aprendeu que o parque guarda segredos valiosos.</p>
+        </div>
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
